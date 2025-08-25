@@ -5,8 +5,8 @@ export type CategoryType = (typeof allowedCategories)[number];
   export interface ProjectProps {
     id:number;
     heading: string;
-    src: string;
-    link: string;
+    src?: string;
+    link?: string;
     description: string;
     tech_used: string[];
     github_link?: string;

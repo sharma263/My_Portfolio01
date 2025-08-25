@@ -36,7 +36,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item, idx, isMobile }) => {
   const [isVisible, setIsVisible] = useState<boolean>(false);
   const cardRef = useRef<HTMLDivElement>(null);
 
-  const isVideoFile = item.src.includes("mp4");
+  const isVideoFile = item.src?.includes("mp4");
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -109,22 +109,23 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item, idx, isMobile }) => {
                 }}
               />
             ) : (
-              <Image
-                src={item.src}
-                alt="projectImage"
-                width={1000}
-                height={1000}
-                className="h-full w-full object-fill"
-                loading="lazy"
-                placeholder="blur"
-                blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWGRkqGx0f/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q=="
-                onLoad={() => setImageLoaded(true)}
-                onLoadStart={() => setImageLoaded(false)}
-                style={{
-                  opacity: imageLoaded ? 1 : 0.3,
-                  transition: "opacity 0.3s ease",
-                }}
-              />
+            <Image
+  src={item.src || "/fallback.jpg"} // yaha fallback.jpg public folder me rakho
+  alt={item.heading || "projectImage"}
+  width={1000}
+  height={1000}
+  className="h-full w-full object-fill"
+  loading="lazy"
+  placeholder="blur"
+  blurDataURL="data:image/jpeg;base64,..."
+  onLoad={() => setImageLoaded(true)}
+  onLoadStart={() => setImageLoaded(false)}
+  style={{
+    opacity: imageLoaded ? 1 : 0.3,
+    transition: "opacity 0.3s ease",
+  }}
+/>
+
             )}
           </div>
         </div>
@@ -153,10 +154,10 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item, idx, isMobile }) => {
           <div className="flex items-center gap-1 text-left text-xs text-tertiary">
             <LuArrowBigRight /> associated with{" "}
             <span className="text-blue">
-              {item.category.some((c: string) => c === "nucast")
+              {item.category.some((c: string) => c === "SODE")
                 ? item.id === 21
-                  ? "Esco/Nucast Pte. Ltd."
-                  : "Nucast Pte. Ltd."
+                  ? "Esco/SODE Pte. Ltd."
+                  : "SODE Pte. Ltd."
                 : "Personal"}
             </span>
           </div>

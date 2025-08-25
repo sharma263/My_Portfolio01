@@ -18,7 +18,7 @@ const AboutMe = () => {
         <div className=" px-[4%] sm:px-[6%] ">
           <motion.div
             {...ANIMATION_CONFIG}
-            className="mb-10 font-thunder-semibold text-4xl tracking-wider sm:mb-16 md:text-6xl"
+            className="mb-10 font-thunder-semibold text-4xl mt-6 tracking-wider sm:mb-16 md:text-6xl"
           >
             About <span className="uppercase text-blue">me</span>
           </motion.div>

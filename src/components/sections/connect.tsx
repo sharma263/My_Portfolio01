@@ -77,15 +77,7 @@ const Connect: React.FC = () => {
             </span>
           </h1>
           <ul className="flex gap-4 text-xl">
-            <li
-              style={{
-                background:
-                  "radial-gradient(100% 100% at 50% 100%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%) ",
-              }}
-              className="flex h-[30px] w-[30px] items-center justify-center rounded-lg border  border-[#FFFFFF14] bg-[#05041F14] shadow-deep-inset sm:h-[36px] sm:w-[36px]"
-            >
-          
-            </li>
+           
             <li
               style={{
                 background:

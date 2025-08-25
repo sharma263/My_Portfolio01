@@ -41,22 +41,21 @@ const Hero = () => {
                 background:
                   "radial-gradient(100% 100% at 50% 100%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%) ",
               }}
-              className="mb-4 rounded-lg border border-[rgba(105,113,162,0.16)] px-2.5 py-[5px] text-sm text-tertiary text-opacity-80 shadow-deep-inset sm:text-lg"
+              className="mb-4 mt-20 rounded-lg border border-[rgba(105,113,162,0.16)] px-2.5 py-[5px] text-sm text-tertiary text-opacity-80 shadow-deep-inset sm:text-lg"
             >
               🚀 Many Web Applications In Production
             </div>
-            <div className="flex flex-col text-center font-thunder-semibold text-4xl tracking-wider sm:max-w-[80vw] md:text-8xl">
-              <span>Software Engineer Crafting </span>
+            <div className="flex flex-col text-center mt-4 font-thunder-semibold text-4xl tracking-wider sm:max-w-[80vw] md:text-8xl">
+              <span>Design Meets Functionality </span>
               <div className="mt-2">
-                <span className="uppercase text-blue">Next-Gen</span> Digital
-                Experiences
+                <span className="uppercase text-blue">I Code </span> 
+                What You Imagine
               </div>
             </div>
 
             <p className=" max-w-[90vw] text-lg text-tertiary md:max-w-[60vw]">
-              Web Developer building modern web applications powered by AI
-              technology and blockchain integration. Transforming ideas into
-              intelligent digital solutions.
+             I create modern, responsive web applications with clean code and scalable design.
+Turning complex ideas into simple, powerful digital solutions
             </p>
           </motion.div>
 
