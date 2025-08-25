@@ -1,4 +1,4 @@
-import { BsGithub, BsLinkedin, BsTwitterX } from "react-icons/bs";
+import { BsGithub, BsLinkedin,  } from "react-icons/bs";
 import { FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { ContactProps } from "~/types";
 
