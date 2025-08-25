@@ -17,10 +17,7 @@ export const SKILLS: SkillsProps[] = [
     name: "Tailwind CSS",
     category: "WEB",
   },
-  {
-    name: "SASS",
-    category: "WEB",
-  },
+ 
   {
     name: "Vanilla CSS",
     category: "WEB",
@@ -37,18 +34,9 @@ export const SKILLS: SkillsProps[] = [
     name: "Node JS",
     category: "SERVER",
   },
-  {
-    name: "Deno",
-    category: "SERVER",
-  },
-  {
-    name: "Supabase",
-    category: "SERVER",
-  },
-  {
-    name: "Appwrite",
-    category: "SERVER",
-  },
+ 
+  
+
   {
     name: "Mongo DB",
     category: "SERVER",
@@ -57,30 +45,17 @@ export const SKILLS: SkillsProps[] = [
     name: "MySQL",
     category: "SERVER",
   },
-  {
-    name: "Zustand",
-    category: "OTHER",
-  },
+
   {
     name: "Redux",
     category: "OTHER",
   },
-  {
-    name: "Mesh JS",
-    category: "OTHER",
-  },
+
   {
     name: "Git / Github",
     category: "OTHER",
   },
-  {
-    name: "Swagger UI",
-    category: "OTHER",
-  },
-  {
-    name: "Framer Motion",
-    category: "OTHER",
-  },
+
   {
     name: "Bootstrap",
     category: "OTHER",
@@ -93,18 +68,9 @@ export const SKILLS: SkillsProps[] = [
     name: "VS Code",
     category: "AI",
   },
-  {
-    name: "CrewAI",
-    category: "AI",
-  },
-  {
-    name: "Zappier",
-    category: "AI",
-  },
-  {
-    name: "Python",
-    category: "AI",
-  },
+
+ 
+ 
   {
     name: "C++",
     category: "AI",
@@ -141,22 +107,9 @@ export const SKILLSIMAGEPROPS: SkillsImageProps[] = [
     name: "Node JS",
   },
 
-  {
-    src: "/skills/python.png",
-    name: "Python",
-  },
-  {
-    src: "/skills/mesh.svg",
-    name: "Mesh JS",
-  },
-  {
-    src: "/skills/crewai.png",
-    name: "CrewAI",
-  },
-  {
-    src: "/skills/supabase.jpg",
-    name: "Supabase",
-  },
+ 
+
+ 
   {
     src: "/skills/mongo.webp",
     name: "Mongo DB",
@@ -165,10 +118,7 @@ export const SKILLSIMAGEPROPS: SkillsImageProps[] = [
     src: "/skills/firebase.png",
     name: "Firebase",
   },
-  {
-    src: "/skills/appwrite.png",
-    name: "Appwrite",
-  },
+ 
   {
     src: "/skills/mysql.png",
     name: "mySQL",
@@ -182,14 +132,8 @@ export const SKILLSIMAGEPROPS: SkillsImageProps[] = [
     src: "/skills/tailwind.webp",
     name: "Tailwind CSS",
   },
-  {
-    src: "/skills/sass.png",
-    name: "SASS",
-  },
-  {
-    src: "/skills/motion.png",
-    name: "Framer Motion",
-  },
+
+
   {
     src: "/skills/threejs.png",
     name: "Three JS",

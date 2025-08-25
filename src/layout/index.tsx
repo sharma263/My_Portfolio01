@@ -12,9 +12,9 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   return (
     <>
       <Head>
-        <title>Shubhanshu | Portfolio </title>
+        <title>Shivangi | Portfolio </title>
         <meta name="description" content="Perosnal porfolio" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/fevicon.jpg" />
       </Head>
       <main
         className={`relative min-h-screen w-full bg-primary text-center  text-secondary font-neue-light tracking-wider ${comfortaa_font.variable} `}

@@ -56,7 +56,7 @@ const Connect: React.FC = () => {
             <motion.a
               {...ANIMATION_CONFIG}
               target="_blank"
-              href="mailto:shubhanshusaxena999@gmail.com"
+              href="mailto:shivangisharma2122000@gmail.com"
             >
               <AceternityIcon className="mt-4 !text-xs sm:mt-8 sm:!text-sm ">
                 Connect Now
@@ -73,7 +73,7 @@ const Connect: React.FC = () => {
           <h1 className="text-left text-xs sm:text-center sm:text-sm">
             developed by{" "}
             <span className="text-blue">
-              <span className="text-xs sm:text-sm">@</span>shubhanshu saxena
+              <span className="text-xs sm:text-sm">@</span>shivangi sharma
             </span>
           </h1>
           <ul className="flex gap-4 text-xl">
@@ -84,12 +84,7 @@ const Connect: React.FC = () => {
               }}
               className="flex h-[30px] w-[30px] items-center justify-center rounded-lg border  border-[#FFFFFF14] bg-[#05041F14] shadow-deep-inset sm:h-[36px] sm:w-[36px]"
             >
-              <Link target="_blank" href="https://twitter.com/Shubhanshu1453">
-                <FaTwitter
-                  color="#1DA1F2"
-                  className="transition-all duration-300 hover:-scale-x-100"
-                />
-              </Link>
+          
             </li>
             <li
               style={{
@@ -100,7 +95,7 @@ const Connect: React.FC = () => {
             >
               <Link
                 target="_blank"
-                href="https://www.linkedin.com/in/shubhanshu-saxena-902511230/"
+                href="https://www.linkedin.com/in/shivangi-sharma-3622831bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
               >
                 <FaLinkedinIn
                   color="white"
@@ -115,7 +110,7 @@ const Connect: React.FC = () => {
               }}
               className="flex h-[30px] w-[30px] items-center justify-center rounded-lg border  border-[#FFFFFF14] bg-[#05041F14] shadow-deep-inset sm:h-[36px] sm:w-[36px]"
             >
-              <Link target="_blank" href="https://github.com/shubhu2002">
+              <Link target="_blank" href="https://github.com/sharma263">
                 <FaGithub
                   color="white"
                   className="transition-all duration-300 hover:-scale-x-100"
@@ -129,7 +124,7 @@ const Connect: React.FC = () => {
               }}
               className="flex h-[30px] w-[30px] items-center justify-center rounded-lg border  border-[#FFFFFF14] bg-[#05041F14] shadow-deep-inset sm:h-[36px] sm:w-[36px]"
             >
-              <Link target="_blank" href={"https://wa.me/9074105188"}>
+              <Link target="_blank" href={"https://wa.me/6261619460"}>
                 <FaWhatsapp
                   fill="#25D366"
                   className="transition-all duration-300 hover:-scale-x-100"

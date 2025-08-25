@@ -43,7 +43,7 @@ const Hero = () => {
               }}
               className="mb-4 rounded-lg border border-[rgba(105,113,162,0.16)] px-2.5 py-[5px] text-sm text-tertiary text-opacity-80 shadow-deep-inset sm:text-lg"
             >
-              🚀 20+ Web Applications In Production
+              🚀 Many Web Applications In Production
             </div>
             <div className="flex flex-col text-center font-thunder-semibold text-4xl tracking-wider sm:max-w-[80vw] md:text-8xl">
               <span>Software Engineer Crafting </span>

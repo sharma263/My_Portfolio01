@@ -52,7 +52,7 @@ const AboutMe = () => {
                           PROJECTS
                         </div>
                         <div className="text-lg ">
-                          Worked on more than 20+ Projects !
+                          Worked on many Projects !
                         </div>
                       </div>
                     </div>
@@ -76,18 +76,18 @@ const AboutMe = () => {
                           EXPERIENCE
                         </div>
                         <div className="block text-lg md:hidden ">
-                          1+ Years of Professional Experience as SDE at Nucast
-                          Pte. Ltd.
+                          1+ Years of Professional Experience as SDE at School Of Distance Education (SODE)
+                        
                         </div>
                         <div className="hidden break-words text-lg md:block">
                           1+ Years of Professional Experience as
                         </div>
                         <div className="hidden break-words text-lg md:block">
-                          SDE at Nucast Pte. Ltd.
+                          SDE at School Of Distance Education (SODE)
                         </div>
                       </div>
                       <Link
-                        href="https://drive.google.com/file/d/1aob5c30w7epk3-gYsDg5n7nGYdhgdgU4/view?usp=sharing"
+                        href="https://drive.google.com/file/d/11Uf3TvRDyVlj820hYwJeoGiBYZ82z5Iq/view?usp=drive_link"
                         target="_blank"
                         className="flex justify-self-start"
                       >

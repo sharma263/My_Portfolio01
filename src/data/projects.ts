@@ -3,7 +3,7 @@ import { ProjectProps } from "~/types";
 export const PROJECTS: ProjectProps[] = [
   {
     id: 1,
-    heading: "Library Management",
+    heading: "CRM",
     src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fc%2B%2B.png?alt=media&token=09a0681f-a030-4d22-9b31-21e53c4bcd64",
     link: "",
     description:
@@ -56,24 +56,7 @@ export const PROJECTS: ProjectProps[] = [
     tech_used: ["Next JS", "Typescript", "Tailwind CSS", "Lenis-Scroll"],
     category: ["all", "personal"],
   },
-  {
-    id: 6,
-    heading: "AuthenTrace : An Authentication Sysytem",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fauthentrace.mp4?alt=media&token=07b793f4-b901-473d-8c25-bdf31ffe8e70",
-    link: "https://authentrace.vercel.app/",
-    description:
-      "A next-auth based authentication system , which is very secure and reliable , easy to access. In which user credentials are stored in database with hashing password",
-    github_link: "https://github.com/shubhu2002/auth-app",
-    tech_used: [
-      "Next JS",
-      "Typescript",
-      "Tailwind CSS",
-      "Next-Auth",
-      "Express JS",
-      "Supabase",
-    ],
-    category: ["all", "personal"],
-  },
+ 
   {
     id: 7,
     heading: "Old Personal Portfolio",
@@ -91,48 +74,10 @@ export const PROJECTS: ProjectProps[] = [
     ],
     category: ["all", "personal"],
   },
-  {
-    id: 8,
-    heading: "Tourice : A Tours & Travels Management",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Ftourice.mp4?alt=media&token=c0a85872-e141-4ad0-baa4-632030125c7d",
-    link: "https://tourice-frontend-ts.vercel.app/",
-    description:
-      "Embark on unforgettable journeys with Tourice, your ultimate companion in travel adventures. From exotic getaways to cultural expeditions, Tourice provides a seamless platform for managing all aspects of your travel experience. Discover breathtaking destinations, book accommodations, plan excursions, and create lifelong memories with ease.",
-    github_link: "https://github.com/shubhu2002/tourice-frontend-ts",
-    tech_used: [
-      "Next JS",
-      "Typescript",
-      "Tailwind CSS",
-      "Mongo DB",
-      "Express JS",
-      "Firebase",
-      "Framer Motion",
-    ],
-    category: ["all", "personal"],
-  },
 
-  // nucast
-  {
-    id: 9,
-    heading: "Livestream | Nucast",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Flive_nucast.mp4?alt=media&token=1090dbf1-51c6-41c0-b7fa-6c61a46b64ed",
-    link: "https://live.nucast.io/",
-    description:
-      "Build the future of Interactive Entertainment . It is a state of art livestreaming protocol that is set to change the content creation game with features that include Live Predictions with wins from a collective ADA pool. Vibrant chat rooms for engaging discussions. Simple micropayments to tip your favorite creators. A platform free from censorship",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "Typescript",
-      "Supabase",
-      "Mesh JS (Blockchain)",
-      "Express JS",
-      "Mux Player",
-    ],
-    category: ["all", "nucast"],
-  },
   {
     id: 10,
-    heading: "DrepWatch",
+    heading: "Pet Shop Website",
     src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fdrep.mp4?alt=media&token=756312e4-a859-4150-9533-2af24f6321a2",
     link: "https://drep-client.vercel.app/",
     description: "DrepWatch : Delegate , Ask Question , Answers . . . . ",
@@ -147,26 +92,10 @@ export const PROJECTS: ProjectProps[] = [
     ],
     category: ["all", "nucast"],
   },
-  {
-    id: 11,
-    heading: "LV-Research",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Flv_research.mp4?alt=media&token=d6a277e7-00ff-4b4a-8c74-f835fafeed53",
-    link: "https://lv-research-rho.vercel.app/",
-    description:
-      "The Gateway to On-chain Insights curated in a Decentralized Manner.",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "TypeScript",
-      "Supabase",
-      "Mesh JS (Blockchain)",
-      "Lenis",
-    ],
-    category: ["all", "nucast"],
-  },
+
   {
     id: 12,
-    heading: "Trivolve Tech",
+    heading: "Books Management System",
     src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Ftrivolve.mp4?alt=media&token=daa9c4d8-2e2d-405f-856e-2cf7181db0fa",
     link: "https://trivolvetech.com/",
     description:
@@ -175,136 +104,10 @@ export const PROJECTS: ProjectProps[] = [
     tech_used: ["Next JS", "Typecript", "GSAP", "Framer Motion"],
     category: ["all", "nucast"],
   },
-  {
-    id: 13,
-    heading: "Sync AI Network",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fsync_staging.mp4?alt=media&token=46b17662-a535-4dc6-8dd8-24b2c0d09536",
-    link: "https://staging.syncai.network/",
-    description:
-      "AI-Powered DePIN Network on Cardano. Enabling communications between Users, dApps and Blockchains.",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "TypeScript",
-      "Express JS",
-      "Supabase",
-      "Mesh JS (Blockchain)",
-      "Three JS",
-    ],
-    category: ["all", "nucast"],
-  },
-  {
-    id: 13,
-    heading: "CardanoCodex 2024",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fcardano-codex.mp4?alt=media&token=19dc2772-2f11-469b-b092-ffe6cd0b6318",
-    link: "https://cardano-codex23.vercel.app/",
-    description:
-      "A digital hackathon powered by Cardano & moderated by Nucast Labs to increase awareness, engage web3 developers, and promote Cardano in India.",
-    github_link: "",
-    tech_used: ["Next JS", "Typecript", "GSAP", "Framer Motion"],
-    category: ["all", "nucast"],
-  },
-  {
-    id: 14,
-    heading: "Sync AD",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fsync_landing.mp4?alt=media&token=3e0f9e3b-23be-483d-8cb4-f2f70ee12eb1",
-    link: "https://www.syncai.network/",
-    description: "Engineering the future of on-chain AI Agents.",
-    github_link: "",
-    tech_used: ["Next JS", "TypeScript", "Tailwind CSS", "Supabase", "Lenis"],
-    category: ["all", "nucast"],
-  },
-  {
-    id: 15,
-    heading: "Sync AI Dreps",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fsync_ai.mp4?alt=media&token=119caba3-b167-4e46-84eb-58b839f18218",
-    link: "https://drep.syncai.network/",
-    description:
-      "AI-Powered DePIN Network on Cardano. Enabling communications between Users, dApps and Blockchains.",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "TypeScript",
-      "Supabase",
-      "Python",
-      "Chat AI",
-      "Mesh JS (Blockchain)",
-    ],
-    category: ["all", "nucast"],
-  },
-  {
-    id: 16,
-    heading: "Sova Lounge Da Nang",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fsova.mp4?alt=media&token=dc29abda-ead3-41a2-a346-166a78fc9ccf",
-    link: "https://sova-v2.vercel.app/",
-    description:
-      "A landing page for cafe opened in Vietnam , Book Your Table and Enjoy Delicious Food & Drinks.",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "Typescript",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Lenis",
-    ],
-    category: ["all", "nucast"],
-  },
-  {
-    id: 17,
-    heading: "NuAuth",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2FNu-Auth.mp4?alt=media&token=0e0bb0f3-473a-4c2a-aa49-1de70f1a2ce6",
-    link: "https://nuauth.nucast.io/",
-    description: "Authenticate, Secure and Monetize Your Content",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "Typescript",
-      "Python",
-      "Mesh JS (Blockchain)",
-      "Chat AI",
-      "Masumi",
-      "Supabase",
-    ],
-    category: ["all", "nucast"],
-  },
-  {
-    id: 18,
-    heading: "Crypto Dashborad",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Frwa.mp4?alt=media&token=2f669ffb-1846-4503-8764-2ffc9bf87995",
-    link: "https://rwa-lending-app-ts.vercel.app/deal/1",
-    description: "Become an investor in the crypto space.",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "Typescript",
-      "Chart.js",
-      "Crypto",
-      "Mesh JS (Blockchain)",
-    ],
-    category: ["all", "nucast"],
-  },
-  {
-    id: 19,
-    heading: "Nucast | Subscription",
-    src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fnu_subscription.mp4?alt=media&token=a7185637-19ff-40cc-9084-3ad60c51dd85",
-    link: "https://subscription.nucast.io/",
-    description:
-      "Nucast subscriptions empowers NFT, gaming, and digital media projects with automated payments via smart contract. Unlock new revenue streams, enhance user experiences, and attract liquidity on Cardano.",
-    github_link: "",
-    tech_used: [
-      "Next JS",
-      "Typescript",
-      "Python",
-      "Mesh JS (Blockchain)",
-      "Express JS",
-      "Supabase",
-    ],
-    category: ["all", "nucast"],
-  },
 
   {
     id: 21,
-    heading: "Better Web3",
+    heading: "ERP",
     src: "https://firebasestorage.googleapis.com/v0/b/tourice-74347.appspot.com/o/portfolioProjects%2Fbetter-web3.mp4?alt=media&token=12a97cb3-5b82-4f4b-947b-937e8d2dbf51",
     link: "https://better-we3.vercel.app/",
     description:
