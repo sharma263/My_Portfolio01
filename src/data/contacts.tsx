@@ -18,7 +18,7 @@ export const CONTACTS: ContactProps[] = [
 
   {
     id: 4,
-    href: "https://www.instagram.com/hey.subhuu/",
+    href: "https://www.instagram.com/infatuation_soul.1/",
     tag: "Instagram",
     icon: <FaInstagram size={24} />,
   },
