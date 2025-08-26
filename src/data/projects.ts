@@ -7,7 +7,7 @@ export const PROJECTS: ProjectProps[] = [
    
     description:
       "The Library Management application in C++ efficiently organizes library resources, enabling tasks such as book borrowing, return management, and cataloging. It incorporates features for user authentication, book search, and inventory management, enhancing library operations and user experience.",
-    tech_used: ["C++", "windows.h", "password"],
+    tech_used: ["C++",  "password"],
     category: ["all", "personal"],
     src:"/crm.webp"
   },
@@ -52,7 +52,6 @@ export const PROJECTS: ProjectProps[] = [
       "Next JS",
       "Tailwind CSS",
       "Typescript",
-      "Lenis",
       "Framer Motion",
     ],
     category: ["all", "personal"],
@@ -64,12 +63,10 @@ export const PROJECTS: ProjectProps[] = [
 src:"/pets.jpg",
     description: "DrepWatch : Delegate , Ask Question , Answers . . . . ",
     tech_used: [
-      "Next JS",
-      "TypeScript",
+      "React JS",
+      "JavaScript",
       "Express JS",
-      "Supabase",
-      "Mesh JS (Blockchain)",
-      "Lenis",
+      
     ],
     category: ["all", "SODE"],
   },
@@ -80,7 +77,7 @@ src:"/pets.jpg",
  src:"/bookmanagement.jpeg",
     description:
       "At Trivolve Tech, we specialize in blockchain and AI, leading the charge with innovative technologies and forward-thinking strategies to empower our clients to reach new heights. Our mission is to amplify your ambitions, delivering tailored solutions that not only address your immediate challenges but also unlock a world of new opportunities. Our comprehensive suite of services is designed to support a diverse clientele, from dynamic startups eager to disrupt the market to large government entities aiming to enhance public services.",
-    tech_used: ["Next JS", "Typecript", "GSAP", "Framer Motion"],
+    tech_used: ["React JS", "Javascript",  "Framer Motion"],
     category: ["all", "SODE"],
   },
 
@@ -91,15 +88,13 @@ src:"/pets.jpg",
     description:
       "Global Web3 adoption - Web3 is not just a technological change, it's a social and cultural revolution.",
     tech_used: [
-      "Next JS",
-      "Typescript",
-      "Blockchains",
+      "React JS",
+      "Javacript",
+      "Node Js",
+      "Express JS",
       "Auth0",
       "Web3auth",
-      "Supabase",
-      "Prisma",
-      "i18next/next-intl",
-      "SODE/gasless",
+      
     ],
     category: ["all", "SODE"],
   },

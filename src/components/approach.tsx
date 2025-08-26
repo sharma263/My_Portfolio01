@@ -18,9 +18,7 @@ const Approach = () => {
             title="Planning & Strategy"
             imgSrc={"/assets/planning.svg"}
             backgroundColor="#064e3b"
-            des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+            des="Our process begins with understanding your goals and target users, and identifying the core functionalities your website needs. We'll also plan the layout, navigation, and content requirements to ensure a seamless experience."
           ></Card>
         </TiltEffect>
         <TiltEffect {...tiltOptions}>
@@ -29,9 +27,7 @@ const Approach = () => {
             title="Development & Progress Update"
             imgSrc={"/assets/development.svg"}
             backgroundColor="#881337"
-            des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+            des="Once the roadmap is set, I fire up my creative playlist and jump into development. From rough drafts to refined code, I make sure you’re updated throughout the journey"
           ></Card>
         </TiltEffect>
         <TiltEffect {...tiltOptions}>
@@ -40,9 +36,7 @@ const Approach = () => {
             title="Development & Launch"
             imgSrc={"/assets/deply.svg"}
             backgroundColor="#0284c7"
-            des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+            des="Time to bring the design to life! I take the approved mockups and convert them into a live, interactive website, one line of code at a time."
           ></Card>
         </TiltEffect>
       </div>
