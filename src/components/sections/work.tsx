@@ -28,7 +28,7 @@ interface PaginationProps {
 }
 
 const sortedProjects: ProjectProps[] =
-  PROJECTS?.sort((a, b) => b.id - a.id) || [];
+  PROJECTS?.sort((a, b) => b.id - a.id) ?? [];
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ item, idx, isMobile }) => {
   const [imageLoaded, setImageLoaded] = useState<boolean>(false);
@@ -64,15 +64,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item, idx, isMobile }) => {
       className={`relative flex h-[29rem] w-[80vw] items-center justify-center sm:w-[200px] lg:min-h-[32rem] ${idx < 2 && isMobile && "z-[80]"} ${idx < 3 && !isMobile && "z-[80]"}`}
     >
       <PinContainer
-        title={item.link || item.github_link}
-        href={item.link || item.github_link}
+        title={item.link ?? item.github_link}
+        href={item.link ?? item.github_link}
       >
         <div className="relative mb-1 flex h-[20vh] w-[80vw] items-center justify-center overflow-hidden sm:w-[290px] lg:h-[220px]">
           <div
             className="relative w-fit overflow-hidden lg:rounded-2xl"
             style={{ backgroundColor: "#13162D" }}
           >
-            {((isVideoFile && !videoLoaded) ||
+            {((isVideoFile && !videoLoaded) ??
               (!isVideoFile && !imageLoaded)) &&
               isVisible && (
                 <div className="absolute inset-0 z-10 flex items-center justify-center bg-[#13162D]/90 backdrop-blur-sm">
@@ -109,22 +109,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ item, idx, isMobile }) => {
                 }}
               />
             ) : (
-            <Image
-  src={item.src || "/fallback.jpg"} // yaha fallback.jpg public folder me rakho
-  alt={item.heading || "projectImage"}
-  width={1000}
-  height={1000}
-  className="h-full w-full object-fill"
-  loading="lazy"
-  placeholder="blur"
-  blurDataURL="data:image/jpeg;base64,..."
-  onLoad={() => setImageLoaded(true)}
-  onLoadStart={() => setImageLoaded(false)}
-  style={{
-    opacity: imageLoaded ? 1 : 0.3,
-    transition: "opacity 0.3s ease",
-  }}
-/>
+              <Image
+                src={item.src ?? "/fallback.jpg"} // yaha fallback.jpg public folder me rakho
+                alt={item.heading ?? "projectImage"}
+                width={1000}
+                height={1000}
+                className="h-full w-full object-fill"
+                loading="lazy"
+                placeholder="blur"
+                blurDataURL="data:image/jpeg;base64,..."
+                onLoad={() => setImageLoaded(true)}
+                onLoadStart={() => setImageLoaded(false)}
+                style={{
+                  opacity: imageLoaded ? 1 : 0.3,
+                  transition: "opacity 0.3s ease",
+                }}
+              />
 
             )}
           </div>
@@ -220,11 +220,10 @@ const Pagination: React.FC<PaginationProps> = ({
             key={index}
             onClick={() => typeof page === "number" && onPageChange(page)}
             disabled={page === "..."}
-            className={`rounded-lg border px-3 py-2 transition-colors  ${
-              page === currentPage
+            className={`rounded-lg border px-3 py-2 transition-colors  ${page === currentPage
                 ? "border-blue bg-blue text-white"
                 : "border-tertiary/20 hover:bg-tertiary/10"
-            } ${page === "..." ? "cursor-default" : ""}`}
+              } ${page === "..." ? "cursor-default" : ""}`}
           >
             {page}
           </button>
