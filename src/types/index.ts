@@ -11,6 +11,7 @@ export type CategoryType = (typeof allowedCategories)[number];
     tech_used: string[];
     github_link?: string;
     category:string[];
+    images?: string;
   }
 
   export interface SkillsProps {

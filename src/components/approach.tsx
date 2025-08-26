@@ -7,7 +7,7 @@ import TiltEffect from "./animations/tilt-effect";
 const Approach = () => {
   const tiltOptions = { angle: 10, perspective: 1500 };
   return (
-    <div className="my-4 flex w-full flex-col gap-4 px-4 py-2">
+    <div className="my-4 mt-4 flex w-full flex-col gap-4 px-4 py-2">
       <span className="mb-3 text-nowrap font-thunder-semibold text-2xl uppercase tracking-widest text-tertiary">
         My Approach
       </span>
