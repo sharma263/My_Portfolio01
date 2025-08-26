@@ -5,7 +5,7 @@
 await import("./src/env.js");
 
 /** @type {import("next").NextConfig} */
-const config = {
+const nextConfig = {
   reactStrictMode: true,
 
   /**
@@ -17,27 +17,25 @@ const config = {
     locales: ["en"],
     defaultLocale: "en",
   },
+
   images: {
     remotePatterns: [
       {
         hostname: "fmpociaoebgngvtsbqdz.supabase.co",
       },
       {
-        hostname:"firebasestorage.googleapis.com"
-      }
+        hostname: "firebasestorage.googleapis.com",
+      },
     ],
   },
-};
 
-export default config;
-/** @type {import('next').NextConfig} */
-const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+
   typescript: {
     ignoreBuildErrors: true,
   },
 };
 
-module.exports = nextConfig;
+export default nextConfig;
