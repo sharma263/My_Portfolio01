@@ -49,7 +49,7 @@ const Hero = () => {
               <span>Design Meets Functionality </span>
               <div className="mt-2">
                 <span className="uppercase text-blue">I Code </span> 
-                What You Imagine
+                What You Imagine.....
               </div>
             </div>
 
